@@ -10,7 +10,7 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-end overflow-hidden pt-28 pb-12 md:pb-20">
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1595959183082-7b570b7e08e2?auto=format&fit=crop&w=2000&q=80"
+          src="https://images.pexels.com/photos/16799889/pexels-photo-16799889.jpeg"
           alt="Bridal makeup artistry"
           className="w-full h-full object-cover object-center"
         />
