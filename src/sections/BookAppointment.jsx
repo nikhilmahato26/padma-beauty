@@ -21,7 +21,7 @@ export default function BookAppointment() {
       sub: BUSINESS.phone,
       icon: <FaWhatsapp size={18} />,
       iconClass: 'bg-[#25D366]/15 text-[#25D366]',
-      href: waLink('Hi Elegant Salon, I would like to book an appointment'),
+      href: waLink('Hi Padma Makeover, I would like to book an appointment'),
       external: true,
     },
     {

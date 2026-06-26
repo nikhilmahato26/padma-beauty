@@ -9,9 +9,9 @@ export default function Footer() {
         <div className="text-center mb-20">
           <div className="eyebrow text-gold mb-6">{BUSINESS.name}</div>
           <h2 className="h-display text-[14vw] md:text-[10vw] lg:text-[150px] text-cream leading-[0.9]">
-            Elegant.
+            Padma.
           </h2>
-          <p className="text-cream/50 max-w-md mx-auto mt-6 text-[14px]">{BUSINESS.tagline} — Jalandhar, Punjab.</p>
+          <p className="text-cream/50 max-w-md mx-auto mt-6 text-[14px]">{BUSINESS.tagline} — Mumbai, Maharashtra.</p>
         </div>
 
         <div className="hairline mb-12" />
@@ -63,7 +63,7 @@ export default function Footer() {
         <div className="hairline mb-6" />
         <div className="flex flex-col md:flex-row justify-between gap-3 text-cream/40 text-[11px] uppercase tracking-wider-2">
           <div>© 2026 {BUSINESS.name}. All rights reserved.</div>
-          <div>Designed with care · Jalandhar, Punjab</div>
+          <div>Designed with care · Mumbai, Maharashtra</div>
         </div>
       </div>
     </footer>

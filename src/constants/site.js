@@ -1,16 +1,16 @@
 export const BUSINESS = {
-  name: 'Elegant Salon & Makeup Studio',
-  tagline: 'Luxury Beauty, Makeup & Bridal Studio',
-  phone: '+91 91822 38863',
-  phoneRaw: '+919182238863',
-  whatsapp: '919182238863',
-  email: 'versha124400@gmail.com',
+  name: 'Padma Makeover Beauty Parlour',
+  tagline: 'Premium Makeover, Beauty & Bridal Parlour',
+  phone: '+91 84338 63331',
+  phoneRaw: '+918433863331',
+  whatsapp: '918433863331',
+  email: 'sapnasdkamble@gmail.com',
   address: {
-    line1: '19A New Vikash Puri',
-    line2: 'Opposite Anand Jewellers, Near KMV College',
-    city: 'Jalandhar',
-    state: 'Punjab',
-    pincode: '144004',
+    line1: 'R No. H-11-A',
+    line2: 'Kailashpuram Pipeline, Sakinaka',
+    city: 'Mumbai',
+    state: 'Maharashtra',
+    pincode: '400072',
   },
   hours: [
     { day: 'Mon – Sat', time: '10:00 — 20:00' },
@@ -121,30 +121,30 @@ export const BRIDAL_INCLUDES = [
 export const TESTIMONIALS = [
   {
     quote:
-      "Elegant Salon is my happy place. Versha didi understood my skin tone instantly — my bridal makeup was breathtaking and lasted the entire 14-hour function.",
+      "Padma Makeover is my happy place. Sapna didi understood my skin tone instantly — my bridal makeup was breathtaking and lasted the entire 14-hour function.",
     name: 'Simran K.',
     role: 'Bride',
   },
   {
     quote:
-      "Best HD makeup studio in Jalandhar. The team is so professional and the salon is spotless. Every visit feels like a complete reset.",
+      "Best HD makeover studio in Mumbai. The team is so professional and the parlour is spotless. Every visit feels like a complete reset.",
     name: 'Avneet S.',
     role: 'Regular Client',
   },
   {
     quote:
-      "From skin prep to the final dupatta drape, the experience at Elegant Salon was pure luxury. My wedding photographs are absolutely flawless.",
+      "From skin prep to the final dupatta drape, the experience at Padma Makeover was pure luxury. My wedding photographs are absolutely flawless.",
     name: 'Jasmeet R.',
     role: 'Bride',
   },
 ]
 
 export const WHY_US = [
-  { n: '01', title: 'Bridal Specialist', text: 'Hundreds of brides styled — from Sikh weddings to court ceremonies and destination receptions.' },
+  { n: '01', title: 'Bridal Specialist', text: 'Hundreds of brides styled — from traditional weddings to court ceremonies and destination receptions.' },
   { n: '02', title: 'Experienced Artists', text: 'A trained team that listens, adapts and delivers — every appointment, every face.' },
-  { n: '03', title: 'Hygienic Studio', text: 'Single-use applicators, sanitised stations, fresh towels — a salon you can trust your skin with.' },
+  { n: '03', title: 'Hygienic Studio', text: 'Single-use applicators, sanitised stations, fresh towels — a parlour you can trust your skin with.' },
   { n: '04', title: 'Premium Products', text: 'MAC, Huda, Charlotte Tilbury, Inglot, Olaplex, Schwarzkopf — only proven, professional formulas.' },
-  { n: '05', title: 'Affordable Luxury', text: 'Studio-quality work without metro pricing — Jalandhar\'s most loved beauty value.' },
+  { n: '05', title: 'Affordable Luxury', text: 'Studio-quality work without premium price tags — Sakinaka\'s most loved beauty value.' },
   { n: '06', title: 'Personalised Care', text: 'Custom consultations, skin-type-aware products, and looks built around you.' },
 ]
 

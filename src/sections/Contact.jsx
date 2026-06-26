@@ -5,7 +5,7 @@ import { telLink, mailLink, waLink } from '../utils/links'
 import SectionEyebrow from '../components/SectionEyebrow'
 
 export default function Contact() {
-  const directions = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(`${BUSINESS.address.line1}, ${BUSINESS.address.line2}, ${BUSINESS.address.city}`)}`
+  const directions = `https://www.google.com/maps/dir/?api=1&destination=19.103662,72.889572`
 
   return (
     <section id="contact" className="py-24 md:py-36 bg-cream text-ink">
@@ -20,7 +20,7 @@ export default function Contact() {
           >
             <SectionEyebrow dark>Visit The Studio</SectionEyebrow>
             <h2 className="h-display text-5xl md:text-6xl text-ink mb-10">
-              Find us in<br /><span className="italic">Jalandhar.</span>
+              Find us in<br /><span className="italic">Mumbai.</span>
             </h2>
 
             <div className="space-y-8">
@@ -71,8 +71,8 @@ export default function Contact() {
           >
             <div className="rounded-3xl overflow-hidden border border-ink/10 h-[480px] md:h-[600px]">
               <iframe
-                title="Elegant Salon Location"
-                src="https://www.google.com/maps?q=KMV+College+Jalandhar+Punjab&output=embed"
+                title="Padma Makeover Location"
+                src="https://www.google.com/maps?q=19.103662,72.889572&z=17&output=embed"
                 className="w-full h-full"
                 style={{ border: 0, filter: 'grayscale(0.4) contrast(1.05)' }}
                 loading="lazy"

@@ -43,7 +43,7 @@ export default function Services() {
             custom={1}
             className="text-cream/60 max-w-xl mt-6 text-[15px] leading-relaxed"
           >
-            Elegant Salon offers a curated selection of premium beauty services — personalised skincare, luxurious facials, expert makeup artistry, signature hair work, and more.
+            Padma Makeover offers a curated selection of premium beauty services — personalised skincare, luxurious facials, expert makeup artistry, signature hair work, and more.
           </motion.p>
         </div>
 

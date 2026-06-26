@@ -9,7 +9,7 @@ export default function WhyUs() {
       <div className="max-w-[1400px] mx-auto px-6 md:px-10">
         <div className="grid lg:grid-cols-12 gap-12 items-end mb-16">
           <div className="lg:col-span-6">
-            <SectionEyebrow>Why Elegant</SectionEyebrow>
+            <SectionEyebrow>Why Padma</SectionEyebrow>
             <motion.h2
               variants={fadeUp}
               initial="hidden"
@@ -31,7 +31,7 @@ export default function WhyUs() {
             className="lg:col-span-5 lg:col-start-8"
           >
             <p className="text-cream/65 leading-relaxed text-[15px]">
-              Premium products. Sanitised tools. Artists with a decade of stage, editorial and bridal experience — all in one quiet studio near KMV College.
+              Premium products. Sanitised tools. Artists with a decade of stage, editorial and bridal experience — all in one quiet studio in Sakinaka.
             </p>
           </motion.div>
         </div>

@@ -6,7 +6,7 @@ export default function FloatingActions() {
   return (
     <>
       <motion.a
-        href={waLink('Hi Elegant Salon, I would like to know more about your services.')}
+        href={waLink('Hi Padma Makeover, I would like to know more about your services.')}
         target="_blank"
         rel="noreferrer"
         initial={{ scale: 0, opacity: 0 }}

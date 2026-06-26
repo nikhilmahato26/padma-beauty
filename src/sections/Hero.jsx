@@ -32,7 +32,7 @@ export default function Hero() {
                 <path id="circ" d="M 100,100 m -78,0 a 78,78 0 1,1 156,0 a 78,78 0 1,1 -156,0" />
               </defs>
               <text fill="#1A1714" fontFamily="Inter" fontSize="10" letterSpacing="6">
-                <textPath href="#circ">BRIDAL SPECIALIST · LUXURY BEAUTY · JALANDHAR · </textPath>
+                <textPath href="#circ">BRIDAL SPECIALIST · LUXURY BEAUTY · MUMBAI · </textPath>
               </text>
             </svg>
           </div>
@@ -59,19 +59,19 @@ export default function Hero() {
             variants={fadeUp}
             className="h-display text-[13vw] md:text-[7vw] lg:text-[104px] text-cream mb-5"
           >
-            Elegant Salon<br />
-            <span className="italic font-light text-gold-soft">& Makeup Studio</span>
+            Padma Makeover<br />
+            <span className="italic font-light text-gold-soft">& Beauty Parlour</span>
           </motion.h1>
 
           <motion.h2
             variants={fadeUp}
             className="h-display text-[8vw] md:text-[3.5vw] lg:text-[48px] text-cream/90 mb-6"
           >
-            Enhance Your <span className="italic font-light text-gold-soft">Beauty</span> With Elegance.
+            Enhance Your <span className="italic font-light text-gold-soft">Beauty</span> with Padma.
           </motion.h2>
 
           <motion.p variants={fadeUp} className="text-cream/75 max-w-md text-[15px] leading-relaxed mb-10">
-            Premium makeup, hair & bridal beauty services in Jalandhar — crafted by professional artists who treat every face as a canvas.
+            Premium makeup, hair & bridal beauty services in Mumbai — crafted by professional artists who treat every face as a canvas.
           </motion.p>
 
           <motion.div variants={fadeUp} className="flex flex-wrap gap-3 mb-12">

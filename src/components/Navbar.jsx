@@ -18,11 +18,11 @@ export default function Navbar() {
       <div className="max-w-[1400px] mx-auto px-6 md:px-10 py-5 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-3 group">
           <div className="w-10 h-10 rounded-full border border-cream/40 flex items-center justify-center">
-            <span className="h-italiana text-cream text-lg">E</span>
+            <span className="h-italiana text-cream text-lg">P</span>
           </div>
           <div className="leading-tight hidden sm:block">
-            <div className="h-italiana text-cream text-base tracking-wider">Elegant Salon</div>
-            <div className="eyebrow text-cream/60 text-[9px]">& Makeup Studio</div>
+            <div className="h-italiana text-cream text-base tracking-wider">Padma Makeover</div>
+            <div className="eyebrow text-cream/60 text-[9px]">Beauty Parlour</div>
           </div>
         </a>
 

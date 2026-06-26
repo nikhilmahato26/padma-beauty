@@ -18,7 +18,7 @@ export default function About() {
             className="h-display text-5xl md:text-6xl lg:text-7xl text-cream mb-8"
           >
             Welcome to<br />
-            <span className="italic text-gold-soft">Elegant.</span>
+            <span className="italic text-gold-soft">Padma.</span>
           </motion.h2>
           <motion.p
             variants={fadeUp}
@@ -28,7 +28,7 @@ export default function About() {
             custom={1}
             className="text-cream/70 text-[15px] leading-relaxed mb-6"
           >
-            At Elegant Salon & Makeup Studio, we believe beauty is confidence. We provide premium salon, bridal makeup, skincare, nail, and hair services — tailored to make every client look and feel beautiful.
+            At Padma Makeover Beauty Parlour, we believe beauty is confidence. We provide premium salon, bridal makeup, skincare, nail, and hair services — tailored to make every client look and feel beautiful.
           </motion.p>
           <motion.p
             variants={fadeUp}
