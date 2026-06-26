@@ -112,12 +112,15 @@ export default function BookAppointment() {
                 <label className="eyebrow text-cream/50 mb-2 block">Service</label>
                 <select className="field bg-ink" {...register('service', { required: true })}>
                   <option value="">Select a service</option>
-                  <option>Bridal Makeup</option>
-                  <option>HD / Party Makeup</option>
-                  <option>Hair Styling</option>
-                  <option>Facial / Skin Care</option>
-                  <option>Nails / Extensions</option>
-                  <option>Full Beauty Package</option>
+                  <option>Threading</option>
+                  <option>Facial & Skin Care</option>
+                  <option>Chocolate Waxing</option>
+                  <option>Rice Waxing</option>
+                  <option>O3+ Waxing</option>
+                  <option>Hair Care & Styling</option>
+                  <option>Make Up & Draping</option>
+                  <option>Manicure</option>
+                  <option>Pedicure</option>
                 </select>
               </div>
               <div>
