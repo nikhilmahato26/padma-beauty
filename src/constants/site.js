@@ -12,9 +12,9 @@ export const BUSINESS = {
     state: 'Maharashtra',
     pincode: '400072',
   },
+  openHours: '11 AM – 9 PM',
   hours: [
-    { day: 'Mon – Sat', time: '10:00 — 20:00' },
-    { day: 'Sunday', time: '11:00 — 18:00' },
+    { day: 'Mon – Sun', time: '11:00 AM — 9:00 PM' },
     { day: 'Bridal Bookings', time: 'By Appointment' },
   ],
   socials: {
@@ -68,6 +68,7 @@ export const SERVICE_CATEGORIES = [
       { name: 'Blueberry Facial', price: '900' },
       { name: 'Korean Glow', price: '1000' },
       { name: 'O3+ Facial', price: '1000' },
+      { name: 'Hydra Facial', price: '3000' },
       { name: 'Aroma Magic', price: '800' },
       { name: 'O3+ Peel Mask', price: '1000' },
       { name: 'Raaga D - Tan', price: '400' },

@@ -24,6 +24,13 @@ export default function Footer() {
               {BUSINESS.address.line2},<br />
               {BUSINESS.address.city} — {BUSINESS.address.pincode}
             </p>
+            <div className="mt-5 flex items-center gap-2 text-cream/70 text-[13.5px]">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4">
+                <circle cx="12" cy="12" r="9" />
+                <path d="M12 7v5l3 2" />
+              </svg>
+              Open Daily · {BUSINESS.openHours}
+            </div>
           </div>
           <div>
             <div className="eyebrow text-cream/40 mb-5">Quick Links</div>

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { NAV_LINKS } from '../constants/site'
+import { NAV_LINKS, BUSINESS } from '../constants/site'
 import useScrolled from '../hooks/useScrolled'
 import ArrowIcon from './ArrowIcon'
 
@@ -32,9 +32,18 @@ export default function Navbar() {
           ))}
         </nav>
 
-        <a href="#book" className="pill text-cream hidden sm:inline-flex">
-          Book Now <ArrowIcon />
-        </a>
+        <div className="hidden sm:flex items-center gap-5">
+          <span className="hidden xl:flex items-center gap-2 text-cream/70 text-[11px] tracking-wider-2 uppercase">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4">
+              <circle cx="12" cy="12" r="9" />
+              <path d="M12 7v5l3 2" />
+            </svg>
+            Open {BUSINESS.openHours}
+          </span>
+          <a href="#book" className="pill text-cream inline-flex">
+            Book Now <ArrowIcon />
+          </a>
+        </div>
 
         <button
           aria-label="Menu"
@@ -54,6 +63,13 @@ export default function Navbar() {
               <a key={l.href} href={l.href} onClick={() => setOpen(false)} className="hover:text-gold">{l.label}</a>
             ))}
             <a href="#book" onClick={() => setOpen(false)} className="pill gold w-fit">Book Now</a>
+            <span className="flex items-center gap-2 text-cream/60 text-[11px] tracking-wider-2 normal-case">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4">
+                <circle cx="12" cy="12" r="9" />
+                <path d="M12 7v5l3 2" />
+              </svg>
+              Open Daily · {BUSINESS.openHours}
+            </span>
           </nav>
         </div>
       )}
